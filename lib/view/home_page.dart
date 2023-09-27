@@ -10,13 +10,13 @@ class Homescreen extends StatefulWidget {
 }
 
 class _HomescreenState extends State<Homescreen> {
-  Color maincolor = Color.fromARGB(255, 33, 51, 68);
-  Color secondcolor = Color.fromARGB(255, 0, 115, 255);
+  Color maincolor = Color.fromARGB(255, 145, 151, 147);
+  Color secondcolor = Color.fromARGB(255, 146, 146, 186);
   PageController? _controller = PageController(initialPage: 0);
   bool ispressed = false;
   Color isTrue = Colors.green;
   Color isWrong = Colors.red;
-  Color Btncolor = Color.fromARGB(255, 0, 115, 255);
+  Color Btncolor = Color.fromARGB(255, 21, 226, 35);
   int score = 0;
   @override
   Widget build(BuildContext context) {
@@ -34,11 +34,11 @@ class _HomescreenState extends State<Homescreen> {
           },
           itemCount: questions.length,
           itemBuilder: (context, index) {
-            return Column(
+            return ListView(
               children: [
                 SizedBox(
                   width: double.infinity,
-                  height: 200,
+                  height: 100,
                   child: Text(
                     "Question ${index + 1}/ ${questions.length}",
                     style: TextStyle(

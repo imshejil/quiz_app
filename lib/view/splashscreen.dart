@@ -14,7 +14,7 @@ class Splashscreen extends StatelessWidget {
           ));
     });
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 33, 51, 68),
+      backgroundColor: Color.fromARGB(255, 106, 123, 138),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -24,7 +24,7 @@ class Splashscreen extends StatelessWidget {
               height: 400,
               width: 400,
               child: Image.asset(
-                "Assets/quiz logo.png",
+                "Assets/quiz.png",
                 height: 300,
                 width: 300,
               ),
@@ -33,15 +33,13 @@ class Splashscreen extends StatelessWidget {
           Text(
             "BRAIN MASTER",
             style: TextStyle(
-                color: Colors.orange,
-                fontSize: 35,
-                fontWeight: FontWeight.bold),
+                color: Colors.red, fontSize: 35, fontWeight: FontWeight.bold),
           ),
           SizedBox(
             height: 50,
           ),
           CircularProgressIndicator(
-            color: Colors.orange,
+            color: Colors.red,
           )
         ],
       ),

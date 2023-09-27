@@ -22,7 +22,7 @@ class _ResultscreenState extends State<Resultscreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              "CONGRATULATIONS 💥",
+              "CONGRATULATIONS ",
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 35,

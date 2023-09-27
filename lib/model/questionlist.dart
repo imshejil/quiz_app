@@ -2,21 +2,21 @@ import 'package:quiz_app_lum/model/question_model.dart';
 
 List<Questionmodel> questions = [
   Questionmodel(
-    "1. which is the language using in flutter?",
+    "1. What is the color of sky",
     {
-      "python": false,
-      "C++": false,
-      "dart": true,
+      "orange": false,
+      "Blue": false,
+      "red": true,
       "none of above": false,
     },
   ),
   Questionmodel(
-    "2.who is the father of our nation ?",
+    "2.Kerala is situated in ?",
     {
-      "Mahathma Gandhi": true,
-      "Jawaharlal Nehru": false,
-      "Bhagath Singh": false,
-      "Narendra Modi": false,
+      "India": true,
+      "Panjab": false,
+      "Pakistan": false,
+      "Us": false,
     },
   ),
   Questionmodel(
@@ -29,12 +29,12 @@ List<Questionmodel> questions = [
     },
   ),
   Questionmodel(
-    "4. Most powerful Supercar in the world ?",
+    "4. Biggest mountain ?",
     {
-      "Nissan GTR": false,
-      "Toyota Supra": false,
-      "Bugati Chiron": true,
-      "Koenigsegg agera r": false,
+      "Everest": true,
+      "Nile": false,
+      "Amzon": false,
+      "Periyar": false,
     },
   ),
   Questionmodel(
